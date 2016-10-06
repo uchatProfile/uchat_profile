@@ -1,0 +1,13 @@
+d：id
+昵称：name
+密码：password
+token: token
+性别：sex
+出生日期：(字符串)birthday
+地址：address
+爱好：（array）hobbies
+职业：career
+星座：constellation
+标签：（array）tags
+头像：（照片）avatar
+
