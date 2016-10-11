@@ -1,6 +1,7 @@
+﻿
 id：id
 昵称：name
-密码：password
+密码：pwd
 性别：sex
 出生日期：(字符串)birthday 
 星座：constellation (根据生日计算，服务端完成)
