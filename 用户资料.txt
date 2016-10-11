@@ -1,13 +1,15 @@
-d：id
+id：id
 昵称：name
 密码：password
-token: token
 性别：sex
-出生日期：(字符串)birthday
+出生日期：(字符串)birthday 
+星座：constellation (根据生日计算，服务端完成)
+年龄：age (根据生日计算， 服务端完成)
 地址：address
-爱好：（array）hobbies
+爱好：（string）hobbies (用逗号分隔) 
 职业：career
-星座：constellation
-标签：（array）tags
-头像：（照片）avatar
+标签：（string）tags  （用逗号分隔）
+头像：（照片url）avatar
+位置：（经纬度）
 
+token: token (不属于基本资料，单独获取)
