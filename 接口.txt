@@ -1,4 +1,4 @@
-﻿所有POST接口一律返回json数据类型
+所有POST接口一律返回json数据类型
 
 err_code 返回错误码，正确时为1
 err_msg 返回错误消息
@@ -38,6 +38,15 @@ http://ip:端口/set_user_info 参数: id token name sex birthday address hobbie
 
 http://ip:端口/change_password_by_old_pwd 参数: id oldpwd newpwd
 更改密码：
+
+
+参数： id token longitude（经度）latitude（纬度） 
+上传地理坐标：（经纬度）返回是否上传成功
+
+
+参数：id token page(分页) ((用于匹配的条件，可能添加) sex age distance city career hobbies) 
+获取匹配人资料：返回匹配的人的资料，最好可以设置可分页返回（每次返回一定人数）
+
 
 解锁策略：
 
