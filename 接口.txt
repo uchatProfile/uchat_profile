@@ -33,6 +33,9 @@ http://ip:端口/get_self_info 参数: id token
 http://ip:端口/get_friend_info 参数: id token friend_uid
 获取好友信息：返回一个好友的信息以及好感度
 
+参数:id token friend_uid
+添加好友：返回成功或者失败
+
 http://ip:端口/set_user_info 参数: id token name sex birthday province city hobbies career tags
 设置更新个人信息：
 
