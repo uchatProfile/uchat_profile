@@ -14,7 +14,7 @@ resul 为正确是返回的数据
 接口参数的key值尽量与用户资料中的key值保持一致，少数特殊情况另外处理
 
 
-http://ip:端口/register 参数: id pwd
+http://ip:端口/register 参数: id pwd name birthday(格式1993.09.14) sex
 注册接口：成功err_code = 1 否则失败
 
 
