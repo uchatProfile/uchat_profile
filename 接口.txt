@@ -45,6 +45,14 @@ http://ip:端口/change_password_by_old_pwd 参数: id oldpwd newpwd
 http://ip:端口/set_location  参数： id token longitude（经度）latitude（纬度） 
 上传地理坐标：（经纬度）返回是否上传成功
 
+http://ip:端口/get_friend_list 参数:id token offset limit
+获取好友列表
+
+http://ip:端口/add_friend 参数: id token id2
+添加好友
+
+http://ip:端口/del_friend 参数： id token id2
+删除好友
 
 http://ip:端口/get_recommend_friends 参数：id token page(分页) ((用于匹配的条件，可能添加) sex age distance province city career hobbies) 
 获取匹配人资料：返回匹配的人的资料，最好可以设置可分页返回（每次返回一定人数）
