@@ -58,6 +58,15 @@ http://ip:端口/get_recommend_friends 参数：id token page(分页) ((用于�
 获取匹配人资料：返回匹配的人的资料，最好可以设置可分页返回（每次返回一定人数）
 
 
+像素墙接口
+像素墙为1024*1024的位图，有RGB三个分量
+http://ip:端口/lock_pixel 参数 id token pixel_x pixel_y
+http://ip:端口/unlock_pixel  参数 id token pixel_x pixel_y
+http://ip:端口/buy_pixel  参数 id token pixel_x pixel_y pixel_color
+http://ip:端口/get_pixel_wall 参数 id token version
+
+
+
 解锁策略：
 
 同一天内聊天A->B聊天超过十句，加五分，连续五天加十分。
